@@ -13,6 +13,7 @@
       "./.obj",
       "./.qmake.stash"
     ],
+    "ext": "js,json,h,cpp",
     "watch": [
       "."
     ]
