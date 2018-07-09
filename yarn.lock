@@ -2,6 +2,33 @@
 # yarn lockfile v1
 
 
+"@types/events@*":
+  version "1.2.0"
+  resolved "http://registry.npm.taobao.org/@types/events/download/@types/events-1.2.0.tgz#81a6731ce4df43619e5c8c945383b3e62a89ea86"
+
+"@types/glob@*":
+  version "5.0.35"
+  resolved "http://registry.npm.taobao.org/@types/glob/download/@types/glob-5.0.35.tgz#1ae151c802cece940443b5ac246925c85189f32a"
+  dependencies:
+    "@types/events" "*"
+    "@types/minimatch" "*"
+    "@types/node" "*"
+
+"@types/minimatch@*":
+  version "3.0.3"
+  resolved "http://registry.npm.taobao.org/@types/minimatch/download/@types/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
+
+"@types/node@*":
+  version "10.5.2"
+  resolved "http://registry.npm.taobao.org/@types/node/download/@types/node-10.5.2.tgz#f19f05314d5421fe37e74153254201a7bf00a707"
+
+"@types/shelljs@^0.7.7":
+  version "0.7.9"
+  resolved "http://registry.npm.taobao.org/@types/shelljs/download/@types/shelljs-0.7.9.tgz#3abecb72d9cad9cd4b0e7cb86ed10a97d93ba602"
+  dependencies:
+    "@types/glob" "*"
+    "@types/node" "*"
+
 abbrev@1:
   version "1.1.1"
   resolved "http://registry.npm.taobao.org/abbrev/download/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -88,6 +115,13 @@ assign-symbols@^1.0.0:
 async-each@^1.0.0:
   version "1.0.1"
   resolved "http://registry.npm.taobao.org/async-each/download/async-each-1.0.1.tgz#19d386a1d9edc6e7c1c85d388aedbcc56d33602d"
+
+async-shelljs@^0.1.2:
+  version "0.1.2"
+  resolved "http://registry.npm.taobao.org/async-shelljs/download/async-shelljs-0.1.2.tgz#e1f660ab362dc52f5844cb8f01125e083e13a55a"
+  dependencies:
+    "@types/shelljs" "^0.7.7"
+    shelljs "^0.8.1"
 
 atob@^2.1.1:
   version "2.1.1"
@@ -2075,7 +2109,7 @@ shebang-regex@^1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/shebang-regex/download/shebang-regex-1.0.0.tgz#da42f49740c0b42db2ca9728571cb190c98efea3"
 
-shelljs@^0.8.2:
+shelljs@^0.8.1, shelljs@^0.8.2:
   version "0.8.2"
   resolved "http://registry.npm.taobao.org/shelljs/download/shelljs-0.8.2.tgz#345b7df7763f4c2340d584abb532c5f752ca9e35"
   dependencies:
