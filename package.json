@@ -1,0 +1,32 @@
+{
+  "name": "cppBoot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node ./build.js"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "./node_modules",
+      "./dist",
+      "./.obj",
+      "./.qmake.stash"
+    ],
+    "watch": [
+      "."
+    ]
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chalk": "^2.4.1",
+    "nodemon": "^1.17.5",
+    "shelljs": "^0.8.2"
+  }
+}
